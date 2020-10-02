@@ -6,7 +6,7 @@ import (
 )
 
 func firstPage(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "<h1> hello, ^^^^^****&&&&uuuiiiiAAAABBBBBCCCCDDDD!</h1>")
+	io.WriteString(w, "<h1> hello, $$$$$$^^^^^****&&&&uuuiiiiAAAABBBBBCCCCDDDD!</h1>")
 }
 
 func main() {
